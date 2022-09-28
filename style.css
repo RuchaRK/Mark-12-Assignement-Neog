@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Space+Grotesk:wght@400;700&display=swap');
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    background-image: url(/images/triangle.webp);
+}
+nav{
+    text-align: right;
+    margin: 1rem;
+}
+a{
+    text-decoration: none;
+    color:blue;
+    padding: 1rem;
+    font-weight: bolder;
+}
+.angle-input{
+    display: block;
+    padding: 0.5rem;
+    width: 30%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.triangle-side{
+    display: block;
+    padding: 0.5rem;
+    width: 30%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.area-inputs{
+    display: block;
+    padding: 0.5rem;
+    width: 30%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+/* label{
+    display: block;
+    padding: 0.5rem;
+}
+
+input{
+    width: 50%;
+    padding: 1rem;
+} */
+button{
+    margin: auto;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-style: solid;
+    color: blue;
+    background: transparent;
+    font-weight: bolder;
+    border-radius: 0.5rem;
+}
+
