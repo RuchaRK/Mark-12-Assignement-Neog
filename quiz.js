@@ -2,7 +2,7 @@ var quizInputs = document.querySelector('.quizForm')
 var submitButton = document.querySelector("#submitAns")
 var outputMsg = document.querySelector("#output")
 
-var correctAns = ["90","right"]
+var correctAns = ["90","right","Polygon","Isosceles","Hypotenuse","Two"]
 
 function checkScores()
 {
