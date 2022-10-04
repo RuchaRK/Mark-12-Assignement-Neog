@@ -10,14 +10,21 @@ function calculateSum(angle1,angle2,angle3)
 }
 function validateIsTriangle()
 {
-    var sum = calculateSum(Number(inputs[0].value),Number(inputs[1].value),Number(inputs[2].value))
-    if(sum === 180)
+    if(Number(inputs[0].value) === 0 || Number(inputs[1].value) === 0 ||Number(inputs[2].value)=== 0)
     {
-        output.innerText = "WOW !!! the angles u entered form a triangle";
+        output.innerText = "Angles in triangle cannot be zero"; 
+
     }
     else{
-        output.innerText = "Sorry !!! the angles u entered  don't form a triangle";
+        var sum = calculateSum(Number(inputs[0].value),Number(inputs[1].value),Number(inputs[2].value))
+        if(sum === 180)
+        {
+            output.innerText = "WOW !!! the angles u entered form a triangle";
+        }
+        else{
+            output.innerText = "Sorry !!! the angles u entered  don't form a triangle";
     }
+}
 
 }
 
